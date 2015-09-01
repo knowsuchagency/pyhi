@@ -128,9 +128,9 @@ NAVIGATION_LINKS = {
             ('/archive.html', 'Archives', 'icon-folder-open-alt'),
             ('/categories/index.html', 'Tags', 'icon-tags'),
             ('/rss.xml', 'RSS', 'icon-rss'),
-            ('http://www.pyhawaii.com/p/stephan-fitzp.html', 'About me', 'icon-user'),
+            ('http://www.pyhawaii.com/', 'About us', 'icon-user'),
             ('https://twitter.com/py_hawaii', "PyHawaii's Twitter", 'icon-twitter'),
-            ('https://github.com/knowsuchagency', 'My Github', 'icon-github'),
+            ('https://github.com/knowsuchagency/pyhi', 'Github', 'icon-github'),
         )
     }
 
