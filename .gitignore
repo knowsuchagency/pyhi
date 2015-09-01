@@ -4,3 +4,4 @@ _site/
 .doit.db.db
 cache/
 output/
+posts/.ipynb_checkpoints/
