@@ -6,27 +6,115 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/collaboration.xml</loc>
+  <lastmod>2015-09-01T10:01:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/decorators.xml</loc>
+  <lastmod>2015-09-01T09:55:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/filepaths.xml</loc>
+  <lastmod>2015-09-01T10:00:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/flask.xml</loc>
+  <lastmod>2015-09-01T09:57:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/functions.xml</loc>
-  <lastmod>2015-09-01T08:11:00Z</lastmod>
+  <lastmod>2015-09-01T09:55:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/functools.xml</loc>
-  <lastmod>2015-09-01T08:11:00Z</lastmod>
+  <lastmod>2015-09-01T09:52:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/getting-started.xml</loc>
+  <lastmod>2015-09-01T10:01:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/iterables.xml</loc>
+  <lastmod>2015-09-01T09:55:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/iterators.xml</loc>
+  <lastmod>2015-09-01T09:55:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/learning.xml</loc>
+  <lastmod>2015-09-01T10:01:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/memoization.xml</loc>
+  <lastmod>2015-09-01T09:55:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/mentoring.xml</loc>
+  <lastmod>2015-09-01T10:01:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/navigation.xml</loc>
+  <lastmod>2015-09-01T10:00:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/openshift.xml</loc>
+  <lastmod>2015-09-01T09:57:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/ospath.xml</loc>
+  <lastmod>2015-09-01T10:00:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/paas.xml</loc>
+  <lastmod>2015-09-01T09:57:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/pathlib.xml</loc>
+  <lastmod>2015-09-01T10:00:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/project-euler.xml</loc>
+  <lastmod>2015-09-01T09:55:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/puzzles.xml</loc>
+  <lastmod>2015-09-01T10:01:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/python.xml</loc>
-  <lastmod>2015-09-01T08:11:00Z</lastmod>
+  <lastmod>2015-09-01T10:01:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/recursion.xml</loc>
+  <lastmod>2015-09-01T09:55:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/resources.xml</loc>
+  <lastmod>2015-09-01T10:01:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/tablib.xml</loc>
+  <lastmod>2015-09-01T09:57:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/training.xml</loc>
+  <lastmod>2015-09-01T10:01:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/web-development.xml</loc>
+  <lastmod>2015-09-01T09:57:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/galleries/rss.xml</loc>
-  <lastmod>2015-09-01T07:35:00Z</lastmod>
+  <lastmod>2015-09-01T10:06:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/rss.xml</loc>
-  <lastmod>2015-09-01T08:11:00Z</lastmod>
+  <lastmod>2015-09-01T10:01:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/sitemap.xml</loc>
-  <lastmod>2015-09-01T08:11:00Z</lastmod>
+  <lastmod>2015-09-01T10:06:00Z</lastmod>
  </sitemap>
 </sitemapindex>
