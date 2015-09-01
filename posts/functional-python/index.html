@@ -182,7 +182,7 @@ You can decorate function">
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [2]:</div>
+<div class="prompt input_prompt">In [1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="k">def</span> <span class="nf">sum_squares_p</span><span class="p">(</span><span class="n">num</span><span class="p">):</span>
@@ -194,6 +194,53 @@ You can decorate function">
     <span class="k">return</span> <span class="n">total</span>
 
 <span class="n">sum_squares_p</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt output_prompt">Out[1]:</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>285</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Object-Oriented">Object-Oriented<a class="anchor-link" href=".#Object-Oriented">¶</a>
+</h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [2]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="k">def</span> <span class="nf">sum_squares_oo</span><span class="p">(</span><span class="n">num</span><span class="p">):</span>
+    <span class="sd">"""Return the sum of the squares in a given range."""</span>
+    <span class="n">total</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num</span><span class="p">):</span>
+        <span class="n">total</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">n</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+    <span class="k">return</span> <span class="nb">sum</span><span class="p">(</span><span class="n">total</span><span class="p">)</span>
+
+<span class="n">sum_squares_oo</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -223,53 +270,6 @@ You can decorate function">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Object-Oriented">Object-Oriented<a class="anchor-link" href=".#Object-Oriented">¶</a>
-</h4>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In [3]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="k">def</span> <span class="nf">sum_squares_oo</span><span class="p">(</span><span class="n">num</span><span class="p">):</span>
-    <span class="sd">"""Return the sum of the squares in a given range."""</span>
-    <span class="n">total</span> <span class="o">=</span> <span class="p">[]</span>
-    <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num</span><span class="p">):</span>
-        <span class="n">total</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">n</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
-    <span class="k">return</span> <span class="nb">sum</span><span class="p">(</span><span class="n">total</span><span class="p">)</span>
-
-<span class="n">sum_squares_oo</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt output_prompt">Out[3]:</div>
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>285</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="Comprehension">Comprehension<a class="anchor-link" href=".#Comprehension">¶</a>
 </h4>
 </div>
@@ -277,7 +277,7 @@ You can decorate function">
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [4]:</div>
+<div class="prompt input_prompt">In [3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="nb">sum</span><span class="p">(</span><span class="n">n</span><span class="o">**</span><span class="mi">2</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>
@@ -292,7 +292,7 @@ You can decorate function">
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[4]:</div>
+<div class="prompt output_prompt">Out[3]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -334,7 +334,7 @@ By: Michael T. Goodrich; Roberto Tamassia; Michael H. Goldwasser</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [5]:</div>
+<div class="prompt input_prompt">In [4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># Lists are iterable but they are not iterators because they have no next method</span>
@@ -376,7 +376,7 @@ Fail! 'list' object is not an iterator
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [6]:</div>
+<div class="prompt input_prompt">In [5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># However, we can create iterators from iterables, like lists</span>
@@ -439,7 +439,7 @@ Our iterator is exhausted!
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [7]:</div>
+<div class="prompt input_prompt">In [6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="k">def</span> <span class="nf">gen_squares</span><span class="p">(</span><span class="n">num</span><span class="p">):</span>
@@ -495,7 +495,7 @@ sum: 285
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [8]:</div>
+<div class="prompt input_prompt">In [7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="k">def</span> <span class="nf">square_and_sum_recursive</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
@@ -517,7 +517,7 @@ sum: 285
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[8]:</div>
+<div class="prompt output_prompt">Out[7]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -532,7 +532,7 @@ sum: 285
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [9]:</div>
+<div class="prompt input_prompt">In [8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># We can add a flag to skip our initial input.</span>
@@ -562,7 +562,7 @@ sum: 285
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[9]:</div>
+<div class="prompt output_prompt">Out[8]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -587,7 +587,7 @@ sum: 285
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [10]:</div>
+<div class="prompt input_prompt">In [9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">square</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span>
@@ -630,7 +630,7 @@ sum: 285
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [11]:</div>
+<div class="prompt input_prompt">In [10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="kn">from</span> <span class="nn">functools</span> <span class="k">import</span> <span class="n">reduce</span>
@@ -654,7 +654,7 @@ sum: 285
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [12]:</div>
+<div class="prompt input_prompt">In [11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="nb">print</span><span class="p">(</span><span class="nb">map</span><span class="o">.</span><span class="n">__doc__</span><span class="p">)</span>
@@ -685,7 +685,7 @@ each of the iterables.  Stops when the shortest iterable is exhausted.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [13]:</div>
+<div class="prompt input_prompt">In [12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="nb">print</span><span class="p">(</span><span class="nb">filter</span><span class="o">.</span><span class="n">__doc__</span><span class="p">)</span>
@@ -716,7 +716,7 @@ is true. If function is None, return the items that are true.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [14]:</div>
+<div class="prompt input_prompt">In [13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="nb">print</span><span class="p">(</span><span class="n">reduce</span><span class="o">.</span><span class="n">__doc__</span><span class="p">)</span>
@@ -751,7 +751,7 @@ sequence is empty.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [15]:</div>
+<div class="prompt input_prompt">In [14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># The sum of numbers 0-9 squared</span>
@@ -767,7 +767,7 @@ sequence is empty.
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[15]:</div>
+<div class="prompt output_prompt">Out[14]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -782,7 +782,7 @@ sequence is empty.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [16]:</div>
+<div class="prompt input_prompt">In [15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># Filter out even numbers in the range 20</span>
@@ -798,7 +798,7 @@ sequence is empty.
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[16]:</div>
+<div class="prompt output_prompt">Out[15]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -813,40 +813,22 @@ sequence is empty.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [17]:</div>
+<div class="prompt input_prompt">In [16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">os.path</span>
 <span class="n">home</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">expanduser</span><span class="p">(</span><span class="s">'~'</span><span class="p">)</span>
 <span class="n">filename</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">home</span><span class="p">,</span> <span class="s">'git'</span><span class="p">,</span> <span class="s">'pyhi'</span><span class="p">,</span> <span class="s">'galleries'</span><span class="p">,</span> <span class="s">'euler_92.png'</span><span class="p">)</span>
-<span class="n">filename</span>
 </pre></div>
 
 </div>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt output_prompt">Out[17]:</div>
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>'/Users/stephanfitzpatrick/git/pyhi/galleries/euler_92.png'</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [18]:</div>
+<div class="prompt input_prompt">In [17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="k">import</span> <span class="n">Image</span>
@@ -862,7 +844,7 @@ sequence is empty.
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[18]:</div>
+<div class="prompt output_prompt">Out[17]:</div>
 
 
 <div class="output_png output_subarea output_execute_result">
@@ -877,7 +859,7 @@ sequence is empty.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [19]:</div>
+<div class="prompt input_prompt">In [18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="k">def</span> <span class="nf">split_decimal</span><span class="p">(</span><span class="n">decimal</span><span class="p">):</span>
@@ -912,7 +894,7 @@ sequence is empty.
 </div>
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[19]:</div>
+<div class="prompt output_prompt">Out[18]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -927,7 +909,7 @@ sequence is empty.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [20]:</div>
+<div class="prompt input_prompt">In [19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="k">def</span> <span class="nf">chain</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
@@ -954,7 +936,7 @@ sequence is empty.
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[20]:</div>
+<div class="prompt output_prompt">Out[19]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -979,7 +961,7 @@ sequence is empty.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [21]:</div>
+<div class="prompt input_prompt">In [20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="k">def</span> <span class="nf">generate</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">f</span><span class="p">,</span> <span class="n">z</span><span class="p">):</span>
@@ -1014,7 +996,7 @@ sequence is empty.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [22]:</div>
+<div class="prompt input_prompt">In [21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="k">def</span> <span class="nf">recursively_generate</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">f</span><span class="p">,</span> <span class="n">z</span><span class="p">):</span>
@@ -1062,7 +1044,7 @@ sequence is empty.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [23]:</div>
+<div class="prompt input_prompt">In [22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="k">def</span> <span class="nf">document</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
@@ -1134,7 +1116,7 @@ Failed as expected :) All args must be positive (-34,)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [24]:</div>
+<div class="prompt input_prompt">In [23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="k">def</span> <span class="nf">fib</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
@@ -1178,7 +1160,7 @@ Computing fib of 1
 </div>
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[24]:</div>
+<div class="prompt output_prompt">Out[23]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -1193,7 +1175,7 @@ Computing fib of 1
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [25]:</div>
+<div class="prompt input_prompt">In [24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="k">def</span> <span class="nf">memoize</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
@@ -1242,7 +1224,7 @@ Computing fib of 0
 </div>
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[25]:</div>
+<div class="prompt output_prompt">Out[24]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -1267,7 +1249,7 @@ Computing fib of 0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [26]:</div>
+<div class="prompt input_prompt">In [25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="k">def</span> <span class="nf">split_decimal</span><span class="p">(</span><span class="n">decimal</span><span class="p">):</span>
@@ -1338,7 +1320,7 @@ Computing fib of 0
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>result: 8581146
-0.6413831830024719 minutes elapsed.
+0.6599188645680746 minutes elapsed.
 </pre>
 </div>
 </div>
