@@ -9,6 +9,7 @@
 
 Summary
 =======
+
 `Jeff Elkner`_ is a Computer Science teacher in Arlington, Virginia who authored
 the extremely popular Python conversion of the book "How to Think Like a Computer
 Scientist". We had the privilege to sit down with him and discuss some of the ways
@@ -18,6 +19,7 @@ he uses Python and what he thinks makes it a great language.
 
 How did you become a programmer?
 --------------------------------
+
   I have a masters degree in Computer Science, but my background is practical as
   I am a teacher and never really worked in industry. I started as a math teacher
   in the 1990's, and quickly got hooked on computers and information technology.
@@ -29,6 +31,7 @@ How did you become a programmer?
 
 Why did you choose Python?
 --------------------------
+
   Pascal was the lingua franca of teaching, but in the late 1990's the college board
   switched from Pascal to C++ and that was a disaster. C++ has been very successful
   professionally, but it was extremely difficult to use as a teaching language.
@@ -46,12 +49,14 @@ Why did you choose Python?
 
 What other programming languages do you use?
 --------------------------------------------
+
   I have to use Java. The AP exam has moved on to Java from C++ and so I need to
   teach Java. I am now getting into JavaScript as well. Things are changing and
   it is probably time to look at another system programming language as well.
 
 What has been your favorite Python project?
 -------------------------------------------
+
   The thing I love about Python the most is that students can contribute.
   I am a teacher in Arlington, VA and  it is a highly educated place. 65% of the
   residents have graduate degrees here. The students in the public school vary,
@@ -69,6 +74,7 @@ What has been your favorite Python project?
 
 What is your favorite Python module?
 ------------------------------------
+
   GASP. Graphics API for Students of Python. This is a set of wrappers around TK
   that some of my students wrote. GASP allowed you to do procedural style programming
   and recreate some of the 1980's style arcade games like Pong and Breakout.

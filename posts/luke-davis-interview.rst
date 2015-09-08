@@ -4,11 +4,12 @@
 .. tags: interviews, Luke Davis, python, vagrant, webassembly
 .. category: interviews
 .. link:
-.. description: A short interview of Luke Davis from Planet Labs.
+.. description: An interview of Luke Davis from Planet Labs.
 .. type: text
 
 Summary
 =======
+
 .. image:: /images/luke.png
   :align: center
 
@@ -25,6 +26,7 @@ private git repos, and lots of Python.
 
 How did you become a programmer?
 --------------------------------
+
   In Spring, 2008, I realized that programming was a way to think outside your
   head, and thinking was something extremely valuable. Therefore, with that idea
   I knew I had to learn to program. I also knew that I had to be excellent at it,
@@ -35,6 +37,7 @@ How did you become a programmer?
 
 Why did you choose Python?
 --------------------------
+
   Universality. Python is the lingua franca of scientific computing and many
   other things. Python spans so many communities and you can take part in a huge
   conversation about programming, machine intelligence, and many other things.
@@ -50,6 +53,7 @@ Why did you choose Python?
 
 Do you use other programming languages?
 ---------------------------------------
+
   Yes, JavaScript. JS is the native language of the winning platform, web browsers.
   JS is also good for teaching because of the immediate feedback and universal
   web browser. There is no need to setup a development environment, dependences,
@@ -69,6 +73,7 @@ Do you use other programming languages?
 
 What has been your favorite Python project?
 -------------------------------------------
+
   Well at work we use Python to control satellites! We've built a suite of tools
   to control the birds, the ground stations, and every thing else. The satellite
   has a linux based controller and runs Python so literally everything we do can
@@ -82,6 +87,7 @@ What has been your favorite Python project?
 
 What is your favorite Python module?
 ------------------------------------
+
  Good old **datetime**! I hate calculating timestamps, and this save me so much
  time. I literally use it every day, multiple times a day. We have 15 ground
  sites across the Earth so we are constantly calculating local time zones and
