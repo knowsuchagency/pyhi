@@ -10,6 +10,7 @@
 Summary
 =======
 .. image:: /images/luke.png
+  :align: center
 
 Today we had a chance to sit down and talk to `Luke Davis`_ from `Planet Labs`_.
 Planet Labs launched with the idea of imaging every spot on the planet every day.
