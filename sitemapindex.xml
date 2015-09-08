@@ -6,111 +6,139 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/cat_interviews.xml</loc>
+  <lastmod>2015-09-08T03:44:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/collaboration.xml</loc>
-  <lastmod>2015-09-02T06:16:00Z</lastmod>
+  <lastmod>2015-09-08T03:33:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/decorators.xml</loc>
-  <lastmod>2015-09-02T06:16:00Z</lastmod>
+  <lastmod>2015-09-08T05:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/filepaths.xml</loc>
-  <lastmod>2015-09-02T06:16:00Z</lastmod>
+  <lastmod>2015-09-08T03:33:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/flask.xml</loc>
-  <lastmod>2015-09-02T06:16:00Z</lastmod>
+  <lastmod>2015-09-08T03:56:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/functions.xml</loc>
-  <lastmod>2015-09-02T06:16:00Z</lastmod>
+  <lastmod>2015-09-08T05:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/getting-started.xml</loc>
-  <lastmod>2015-09-02T06:16:00Z</lastmod>
+  <lastmod>2015-09-08T03:33:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/interviews.xml</loc>
+  <lastmod>2015-09-08T03:44:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/inteviews.xml</loc>
+  <lastmod>2015-09-08T03:41:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/iterables.xml</loc>
-  <lastmod>2015-09-02T06:16:00Z</lastmod>
+  <lastmod>2015-09-08T05:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/iterators.xml</loc>
-  <lastmod>2015-09-02T06:16:00Z</lastmod>
+  <lastmod>2015-09-08T05:26:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/jeff-elkner.xml</loc>
+  <lastmod>2015-09-08T03:41:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/learning.xml</loc>
-  <lastmod>2015-09-02T06:16:00Z</lastmod>
+  <lastmod>2015-09-08T03:33:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/luke-davis.xml</loc>
+  <lastmod>2015-09-08T03:44:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/memoization.xml</loc>
-  <lastmod>2015-09-02T06:16:00Z</lastmod>
+  <lastmod>2015-09-08T05:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/mentoring.xml</loc>
-  <lastmod>2015-09-02T06:16:00Z</lastmod>
+  <lastmod>2015-09-08T03:33:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/navigation.xml</loc>
-  <lastmod>2015-09-02T06:16:00Z</lastmod>
+  <lastmod>2015-09-08T03:33:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/openshift.xml</loc>
-  <lastmod>2015-09-02T06:16:00Z</lastmod>
+  <lastmod>2015-09-08T03:56:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/ospath.xml</loc>
-  <lastmod>2015-09-02T06:16:00Z</lastmod>
+  <lastmod>2015-09-08T03:33:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/paas.xml</loc>
-  <lastmod>2015-09-02T06:16:00Z</lastmod>
+  <lastmod>2015-09-08T03:56:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/pathlib.xml</loc>
-  <lastmod>2015-09-02T06:16:00Z</lastmod>
+  <lastmod>2015-09-08T03:33:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/project-euler.xml</loc>
-  <lastmod>2015-09-02T06:16:00Z</lastmod>
+  <lastmod>2015-09-08T05:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/puzzles.xml</loc>
-  <lastmod>2015-09-02T06:16:00Z</lastmod>
+  <lastmod>2015-09-08T03:33:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/python.xml</loc>
-  <lastmod>2015-09-02T06:16:00Z</lastmod>
+  <lastmod>2015-09-08T05:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/recursion.xml</loc>
-  <lastmod>2015-09-02T06:16:00Z</lastmod>
+  <lastmod>2015-09-08T05:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/resources.xml</loc>
-  <lastmod>2015-09-02T06:16:00Z</lastmod>
+  <lastmod>2015-09-08T03:33:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/tablib.xml</loc>
-  <lastmod>2015-09-02T06:16:00Z</lastmod>
+  <lastmod>2015-09-08T03:56:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/training.xml</loc>
-  <lastmod>2015-09-02T06:16:00Z</lastmod>
+  <lastmod>2015-09-08T03:33:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/vagrant.xml</loc>
+  <lastmod>2015-09-08T03:44:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/categories/web-development.xml</loc>
-  <lastmod>2015-09-02T06:16:00Z</lastmod>
+  <lastmod>2015-09-08T03:56:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/webassembly.xml</loc>
+  <lastmod>2015-09-08T03:44:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/galleries/rss.xml</loc>
-  <lastmod>2015-09-02T06:16:00Z</lastmod>
+  <lastmod>2015-09-08T05:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/rss.xml</loc>
-  <lastmod>2015-09-03T00:38:00Z</lastmod>
+  <lastmod>2015-09-08T05:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://knowsuchagency.github.io/pyhi/sitemap.xml</loc>
-  <lastmod>2015-09-03T00:38:00Z</lastmod>
+  <lastmod>2015-09-08T05:26:00Z</lastmod>
  </sitemap>
 </sitemapindex>
