@@ -2,6 +2,7 @@
 
 from __future__ import unicode_literals
 import time
+from os import urandom
 
 # !! This is the configuration of Nikola. !! #
 # !!  You should edit it to your liking.  !! #
@@ -208,13 +209,13 @@ TIMEZONE = "Pacific/Honolulu"
 
 POSTS = (
     ("posts/*.rst", "posts", "post.tmpl"),
-    ("posts/*.txt", "posts", "post.tmpl"),
+    ("posts/*.html", "posts", "post.tmpl"),
     ("posts/*.md", "posts", "post.tmpl"),
     ("posts/*.ipynb", "posts", "post.tmpl"),
 )
 PAGES = (
     ("stories/*.rst", "stories", "story.tmpl"),
-    ("stories/*.txt", "stories", "story.tmpl"),
+    ("stories/*.html", "stories", "story.tmpl"),
     ("stories/*.md", "stories", "story.tmpl"),
     ("stories/*.ipynb", "stories", "story.tmpl"),
 )
@@ -1016,3 +1017,26 @@ GLOBAL_CONTEXT = {}
 # GLOBAL_CONTEXT as parameter when the template is about to be
 # rendered
 GLOBAL_CONTEXT_FILLER = []
+
+# Coil configuration settings
+COIL_SECRET_KEY = urandom(24)
+COIL_URL = "http://knowsuchagency.github.io/pyhi/coil/"
+_MAKO_DISABLE_CACHING = True
+
+COIL_LIMITED = True
+COIL_USERS = {
+    '1': {
+        'username': 'admin',
+        'realname': 'Website Administrator',
+        'password': '$bcrypt-sha256$2a,12$St3N7xoStL7Doxpvz78Jve$3vKfveUNhMNhvaFEfJllWEarb5oNgNu',
+        'must_change_password': False,
+        'email': 'info@getnikola.com',
+        'active': True,
+        'is_admin': True,
+        'can_edit_all_posts': True,
+        'wants_all_posts': True,
+        'can_upload_attachments': True,
+        'can_rebuild_site': True,
+        'can_transfer_post_authorship': True,
+    },
+}
