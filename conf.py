@@ -125,13 +125,30 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
         DEFAULT_LANG: (
-            ('/index.html', 'Home', 'icon-home'),
-            ('/archive.html', 'Archives', 'icon-folder-open-alt'),
-            ('/categories/index.html', 'Tags', 'icon-tags'),
-            ('/rss.xml', 'RSS', 'icon-rss'),
-            ('http://www.pyhawaii.com/', 'About us', 'icon-user'),
-            ('https://twitter.com/py_hawaii', "PyHawaii's Twitter", 'icon-twitter'),
-            ('https://github.com/knowsuchagency/pyhi', 'Github', 'icon-github'),
+            ('/index.html', 'Home',
+            'icon-home'
+            ),
+            ('/archive.html', 'Archives',
+            'icon-folder-open-alt'
+            ),
+            ('/categories/index.html', 'Tags',
+            'icon-tags'
+            ),
+            ('/rss.xml', 'RSS',
+            'icon-rss'
+            ),
+            ('http://www.pyhawaii.com/', 'About us',
+            'icon-user'
+            ),
+            ('https://twitter.com/py_hawaii', "PyHawaii's Twitter",
+            'icon-twitter'
+            ),
+            ('https://github.com/knowsuchagency/pyhi', 'Github',
+            'icon-github'
+            ),
+            ('/stories/upcoming/index.html', 'Upcoming Events',
+            'icon-calendar'
+            )
         )
     }
 
@@ -507,12 +524,12 @@ GITHUB_REMOTE_NAME = 'origin'
 # "source/" and the results will be located in
 # "OUTPUT_PATH/relative_destination/gallery_name"
 # Default is:
-# GALLERY_FOLDERS = {"galleries": "galleries"}
+GALLERY_FOLDERS = {"galleries": "galleries"}
 # More gallery options:
-# THUMBNAIL_SIZE = 180
-# MAX_IMAGE_SIZE = 1280
-# USE_FILENAME_AS_TITLE = True
-# EXTRA_IMAGE_EXTENSIONS = []
+THUMBNAIL_SIZE = 180
+MAX_IMAGE_SIZE = 1280
+USE_FILENAME_AS_TITLE = True
+EXTRA_IMAGE_EXTENSIONS = []
 #
 # If set to False, it will sort by filename instead. Defaults to True
 # GALLERY_SORT_BY_DATE = True
@@ -524,7 +541,7 @@ GITHUB_REMOTE_NAME = 'origin'
 # The format is a dictionary of {source: relative destination}.
 
 IMAGE_FOLDERS = {'images': 'images'}
-# IMAGE_THUMBNAIL_SIZE = 400
+IMAGE_THUMBNAIL_SIZE = 400
 
 # #############################################################################
 # HTML fragments and diverse things that are used by the templates

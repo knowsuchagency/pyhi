@@ -9,6 +9,8 @@
 
 Summary
 =======
+.. image:: /images/luke.png
+
 Today we had a chance to sit down and talk to `Luke Davis`_ from `Planet Labs`_.
 Planet Labs launched with the idea of imaging every spot on the planet every day.
 They have now launched more satellites in to orbit than any other organization in
