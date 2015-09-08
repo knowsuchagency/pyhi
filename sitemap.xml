@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/</loc>
-  <lastmod>2015-09-08T04:13:00Z</lastmod>
+  <lastmod>2015-09-08T07:23:00Z</lastmod>
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/2015/</loc>
@@ -15,15 +15,15 @@
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/archive.html</loc>
-  <lastmod>2015-09-08T05:26:00Z</lastmod>
+  <lastmod>2015-09-08T07:24:00Z</lastmod>
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/categories/</loc>
-  <lastmod>2015-09-08T02:52:00Z</lastmod>
+  <lastmod>2015-09-08T06:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/categories/cat_interviews/</loc>
-  <lastmod>2015-09-08T02:04:00Z</lastmod>
+  <lastmod>2015-09-08T05:56:00Z</lastmod>
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/categories/collaboration/</loc>
@@ -51,11 +51,11 @@
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/categories/interviews/</loc>
-  <lastmod>2015-09-08T02:04:00Z</lastmod>
+  <lastmod>2015-09-08T06:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/categories/inteviews/</loc>
-  <lastmod>2015-09-08T02:45:00Z</lastmod>
+  <lastmod>2015-09-08T05:56:00Z</lastmod>
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/categories/iterables/</loc>
@@ -67,7 +67,7 @@
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/categories/jeff-elkner/</loc>
-  <lastmod>2015-09-08T02:04:00Z</lastmod>
+  <lastmod>2015-09-08T05:56:00Z</lastmod>
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/categories/learning/</loc>
@@ -75,7 +75,7 @@
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/categories/luke-davis/</loc>
-  <lastmod>2015-09-08T02:14:00Z</lastmod>
+  <lastmod>2015-09-08T06:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/categories/memoization/</loc>
@@ -135,7 +135,7 @@
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/categories/vagrant/</loc>
-  <lastmod>2015-09-08T02:49:00Z</lastmod>
+  <lastmod>2015-09-08T06:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/categories/web-development/</loc>
@@ -143,11 +143,11 @@
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/categories/webassembly/</loc>
-  <lastmod>2015-09-08T02:52:00Z</lastmod>
+  <lastmod>2015-09-08T06:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/galleries/</loc>
-  <lastmod>2015-09-01T06:39:00Z</lastmod>
+  <lastmod>2015-09-08T07:04:00Z</lastmod>
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/posts/counter-and-namedtuple/</loc>
@@ -162,16 +162,12 @@
   <lastmod>2015-09-01T06:39:00Z</lastmod>
  </url>
  <url>
-  <loc>http://knowsuchagency.github.io/pyhi/posts/hackpad/</loc>
-  <lastmod>2015-09-08T03:56:00Z</lastmod>
- </url>
- <url>
   <loc>http://knowsuchagency.github.io/pyhi/posts/jeff-elkner-interview/</loc>
-  <lastmod>2015-09-08T02:45:00Z</lastmod>
+  <lastmod>2015-09-08T05:56:00Z</lastmod>
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/posts/luke-davis-interview/</loc>
-  <lastmod>2015-09-08T02:14:00Z</lastmod>
+  <lastmod>2015-09-08T06:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/posts/pathlib-and-ospath/</loc>
