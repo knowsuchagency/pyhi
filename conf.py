@@ -2,6 +2,7 @@
 
 from __future__ import unicode_literals
 import time
+from os import urandom
 
 # !! This is the configuration of Nikola. !! #
 # !!  You should edit it to your liking.  !! #
@@ -122,16 +123,33 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 #          with a ``/``, otherwise end them with ``/index.html`` — or
 #          else they won’t be highlighted when active.
 
+# Note: if you're using a non-zen theme, comment out the icon lines
 NAVIGATION_LINKS = {
         DEFAULT_LANG: (
-            ('/index.html', 'Home', 'icon-home'),
-            ('/archive.html', 'Archives', 'icon-folder-open-alt'),
-            ('/categories/index.html', 'Tags', 'icon-tags'),
-            ('/rss.xml', 'RSS', 'icon-rss'),
-            ('http://www.pyhawaii.com/', 'About us', 'icon-user'),
-            ('https://twitter.com/py_hawaii', "PyHawaii's Twitter", 'icon-twitter'),
-            ('https://github.com/knowsuchagency/pyhi', 'Github', 'icon-github'),
-            ('/stories/upcoming/index.html', 'Upcoming Events', 'icon-calendar')
+            ('/index.html', 'Home',
+            'icon-home'
+            ),
+            ('/archive.html', 'Archives',
+            'icon-folder-open-alt'
+            ),
+            ('/categories/index.html', 'Tags',
+            'icon-tags'
+            ),
+            ('/rss.xml', 'RSS',
+            'icon-rss'
+            ),
+            ('http://www.pyhawaii.com/', 'About us',
+            'icon-user'
+            ),
+            ('https://twitter.com/py_hawaii', "PyHawaii's Twitter",
+            'icon-twitter'
+            ),
+            ('https://github.com/knowsuchagency/pyhi', 'Github',
+            'icon-github'
+            ),
+            ('/stories/upcoming/index.html', 'Upcoming Events',
+            'icon-calendar'
+            )
         )
     }
 
@@ -209,13 +227,13 @@ TIMEZONE = "Pacific/Honolulu"
 
 POSTS = (
     ("posts/*.rst", "posts", "post.tmpl"),
-    ("posts/*.txt", "posts", "post.tmpl"),
+    ("posts/*.html", "posts", "post.tmpl"),
     ("posts/*.md", "posts", "post.tmpl"),
     ("posts/*.ipynb", "posts", "post.tmpl"),
 )
 PAGES = (
     ("stories/*.rst", "stories", "story.tmpl"),
-    ("stories/*.txt", "stories", "story.tmpl"),
+    ("stories/*.html", "stories", "story.tmpl"),
     ("stories/*.md", "stories", "story.tmpl"),
     ("stories/*.ipynb", "stories", "story.tmpl"),
 )
@@ -507,12 +525,12 @@ GITHUB_REMOTE_NAME = 'origin'
 # "source/" and the results will be located in
 # "OUTPUT_PATH/relative_destination/gallery_name"
 # Default is:
-# GALLERY_FOLDERS = {"galleries": "galleries"}
+GALLERY_FOLDERS = {"galleries": "galleries"}
 # More gallery options:
-# THUMBNAIL_SIZE = 180
-# MAX_IMAGE_SIZE = 1280
-# USE_FILENAME_AS_TITLE = True
-# EXTRA_IMAGE_EXTENSIONS = []
+THUMBNAIL_SIZE = 180
+MAX_IMAGE_SIZE = 1280
+USE_FILENAME_AS_TITLE = True
+EXTRA_IMAGE_EXTENSIONS = []
 #
 # If set to False, it will sort by filename instead. Defaults to True
 # GALLERY_SORT_BY_DATE = True
@@ -524,7 +542,7 @@ GITHUB_REMOTE_NAME = 'origin'
 # The format is a dictionary of {source: relative destination}.
 
 IMAGE_FOLDERS = {'images': 'images'}
-# IMAGE_THUMBNAIL_SIZE = 400
+IMAGE_THUMBNAIL_SIZE = 400
 
 # #############################################################################
 # HTML fragments and diverse things that are used by the templates
@@ -700,7 +718,7 @@ COMMENT_SYSTEM = "disqus"
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
 # is in the manual.
-COMMENT_SYSTEM_ID = ""
+COMMENT_SYSTEM_ID = "pyhi"
 
 # Enable annotations using annotateit.org?
 # If set to False, you can still enable them for individual posts and pages
@@ -1017,3 +1035,26 @@ GLOBAL_CONTEXT = {}
 # GLOBAL_CONTEXT as parameter when the template is about to be
 # rendered
 GLOBAL_CONTEXT_FILLER = []
+
+# Coil configuration settings
+COIL_SECRET_KEY = urandom(24)
+COIL_URL = "http://knowsuchagency.github.io/pyhi/coil/"
+_MAKO_DISABLE_CACHING = True
+
+COIL_LIMITED = True
+COIL_USERS = {
+    '1': {
+        'username': 'admin',
+        'realname': 'Website Administrator',
+        'password': '$bcrypt-sha256$2a,12$St3N7xoStL7Doxpvz78Jve$3vKfveUNhMNhvaFEfJllWEarb5oNgNu',
+        'must_change_password': False,
+        'email': 'info@getnikola.com',
+        'active': True,
+        'is_admin': True,
+        'can_edit_all_posts': True,
+        'wants_all_posts': True,
+        'can_upload_attachments': True,
+        'can_rebuild_site': True,
+        'can_transfer_post_authorship': True,
+    },
+}
