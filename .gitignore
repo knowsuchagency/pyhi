@@ -5,3 +5,5 @@ _site/
 cache/
 output/
 **/.ipynb_checkpoints/
+.idea/
+coil.log

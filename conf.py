@@ -131,6 +131,7 @@ NAVIGATION_LINKS = {
             ('http://www.pyhawaii.com/', 'About us', 'icon-user'),
             ('https://twitter.com/py_hawaii', "PyHawaii's Twitter", 'icon-twitter'),
             ('https://github.com/knowsuchagency/pyhi', 'Github', 'icon-github'),
+            ('/stories/upcoming/index.html', 'Upcoming Events', 'icon-calendar')
         )
     }
 
