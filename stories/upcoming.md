@@ -9,4 +9,8 @@
 .. type: text
 -->
 
-<script src="https://hackpad.com/UPGFsLIaViD.js?format=html-notitle"></script><noscript><div>View <a href="https://hackpad.com/UPGFsLIaViD">[Announcements]</a> on Hackpad.</div></noscript>
+<script src="https://hackpad.com/UPGFsLIaViD.js?format=html-notitle">
+</script><noscript><div>View <a href="https://hackpad.com/UPGFsLIaViD">
+[Announcements]</a> on Hackpad.</div></noscript>
+
+***
