@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/</loc>
-  <lastmod>2015-09-17T00:00:00Z</lastmod>
+  <lastmod>2015-09-17T02:54:00Z</lastmod>
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/2015/</loc>
@@ -19,11 +19,19 @@
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/categories/</loc>
-  <lastmod>2015-09-08T08:20:00Z</lastmod>
+  <lastmod>2015-09-17T02:59:00Z</lastmod>
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/categories/collaboration/</loc>
   <lastmod>2015-09-01T10:00:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/collections/</loc>
+  <lastmod>2015-09-17T02:58:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/counter/</loc>
+  <lastmod>2015-09-17T02:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/categories/decorators/</loc>
@@ -46,6 +54,10 @@
   <lastmod>2015-09-01T10:00:00Z</lastmod>
  </url>
  <url>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/html/</loc>
+  <lastmod>2015-09-17T02:59:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://knowsuchagency.github.io/pyhi/categories/iterables/</loc>
   <lastmod>2015-09-01T09:55:00Z</lastmod>
  </url>
@@ -58,12 +70,20 @@
   <lastmod>2015-09-01T10:00:00Z</lastmod>
  </url>
  <url>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/lxml/</loc>
+  <lastmod>2015-09-17T02:59:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://knowsuchagency.github.io/pyhi/categories/memoization/</loc>
   <lastmod>2015-09-01T09:53:00Z</lastmod>
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/categories/mentoring/</loc>
   <lastmod>2015-09-01T10:00:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/namedtuple/</loc>
+  <lastmod>2015-09-17T02:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/categories/navigation/</loc>
@@ -80,6 +100,10 @@
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/categories/paas/</loc>
   <lastmod>2015-09-01T09:57:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/parsing/</loc>
+  <lastmod>2015-09-17T02:59:00Z</lastmod>
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/categories/pathlib/</loc>
@@ -106,6 +130,14 @@
   <lastmod>2015-09-01T10:00:00Z</lastmod>
  </url>
  <url>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/rss/</loc>
+  <lastmod>2015-09-17T02:59:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/standard-library/</loc>
+  <lastmod>2015-09-17T02:58:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://knowsuchagency.github.io/pyhi/categories/tablib/</loc>
   <lastmod>2015-09-01T09:57:00Z</lastmod>
  </url>
@@ -118,8 +150,16 @@
   <lastmod>2015-09-01T09:57:00Z</lastmod>
  </url>
  <url>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/xml/</loc>
+  <lastmod>2015-09-17T02:59:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://knowsuchagency.github.io/pyhi/categories/xpath/</loc>
+  <lastmod>2015-09-17T02:59:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://knowsuchagency.github.io/pyhi/galleries/</loc>
-  <lastmod>2015-09-08T07:37:00Z</lastmod>
+  <lastmod>2015-09-17T02:54:00Z</lastmod>
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/posts/counter-and-namedtuple/</loc>

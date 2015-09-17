@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>PyHawaii (parsing)</title><link>http://knowsuchagency.github.io/pyhi/</link><description></description><atom:link rel="self" href="http://knowsuchagency.github.io/pyhi/categories/parsing.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Thu, 17 Sep 2015 02:59:41 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Parsing XML with the lxml module</title><link>http://knowsuchagency.github.io/pyhi/posts/parsing-xml-with-the-lxml-module/</link><dc:creator>Stephan Fitzpatrick</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+    &lt;div class="container" id="notebook-container"&gt;
+
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="What-is-XML?"&gt;What is XML?&lt;a class="anchor-link" href="http://knowsuchagency.github.io/pyhi/posts/parsing-xml-with-the-lxml-module/#What-is-XML?"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;blockquote&gt;&lt;p&gt;XML stands for Extensible Markup Language.&lt;/p&gt;
+&lt;p&gt;XML was designed to store and transport data.&lt;/p&gt;
+&lt;p&gt;XML was designed to be both human and machine-readable&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.w3schools.com/xml/"&gt;source&lt;/a&gt;
+&lt;/p&gt;&lt;p&gt;&lt;a href="http://knowsuchagency.github.io/pyhi/posts/parsing-xml-with-the-lxml-module/"&gt;Read more…&lt;/a&gt; (6 min remaining to read)&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>html</category><category>lxml</category><category>parsing</category><category>rss</category><category>xml</category><category>xpath</category><guid>http://knowsuchagency.github.io/pyhi/posts/parsing-xml-with-the-lxml-module/</guid><pubDate>Wed, 16 Sep 2015 01:30:57 GMT</pubDate></item></channel></rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PyHawaii (collections)</title><link>http://knowsuchagency.github.io/pyhi/</link><description></description><atom:link href="http://knowsuchagency.github.io/pyhi/categories/collections.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Thu, 17 Sep 2015 02:58:37 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Counter and namedtuple</title><link>http://knowsuchagency.github.io/pyhi/posts/counter-and-namedtuple/</link><dc:creator>Stephan Fitzpatrick</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+    &lt;div class="container" id="notebook-container"&gt;
+
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h4 id="Collections"&gt;Collections&lt;a class="anchor-link" href="http://knowsuchagency.github.io/pyhi/posts/counter-and-namedtuple/#Collections"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Counter - For counting the number of things in a thing :)&lt;/li&gt;
+&lt;li&gt;namedtuple - For writing self-documenting code!&lt;p&gt;&lt;a href="http://knowsuchagency.github.io/pyhi/posts/counter-and-namedtuple/"&gt;Read more…&lt;/a&gt; (2 min remaining to read)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>collections</category><category>counter</category><category>namedtuple</category><category>standard library</category><guid>http://knowsuchagency.github.io/pyhi/posts/counter-and-namedtuple/</guid><pubDate>Wed, 02 Sep 2015 06:22:30 GMT</pubDate></item></channel></rss>
