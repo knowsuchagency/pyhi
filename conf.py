@@ -1058,3 +1058,6 @@ COIL_USERS = {
         'can_transfer_post_authorship': True,
     },
 }
+
+# For author pages
+ENABLE_AUTHOR_PAGES = False
