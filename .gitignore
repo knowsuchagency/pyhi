@@ -7,4 +7,3 @@ output/
 **/.ipynb_checkpoints/
 .idea/
 coil.log
-**/*.html
