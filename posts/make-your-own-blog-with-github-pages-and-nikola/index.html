@@ -170,6 +170,21 @@ article: http://ogp.me/ns/article#
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>Now that we have the latest Python installed, we just need to install the Nikola and IPython libraries</p>
+
+<pre><code>pip install "Nikola[extras]"
+pip install "ipython[all]"
+
+</code></pre>
+<hr>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>Lastly, we can install the <a href="https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en"><strong>livereload</strong></a> plugin for chrome so that we can see how our website changes as we edit the content without having to re-create the website and refresh our browser each time a change is made.</p>
 <hr>
 </div>
@@ -225,135 +240,6 @@ article: http://ogp.me/ns/article#
 
 </code></pre>
 <p>Now we want to install all the necessary libraries so that we can write a blog using Nikola and Jupyter Notebooks.</p>
-<hr>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>We need to install some libraries such as Nikola, Ipython, and others to make our blog. I'll use the pip freeze command to output all the libraries I have installed.</p>
-<hr>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In [4]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="o">!</span>pip freeze
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>alabaster==0.7.6
-appnope==0.1.0
-argh==0.26.1
-Babel==2.1.1
-blinker==1.4
-cloudpickle==0.1.1
-decorator==4.0.4
-docutils==0.12
-doit==0.29.0
-ghp-import==0.4.1
-gnureadline==6.3.3
-husl==4.0.2
-ipykernel==4.0.3
-ipyparallel==4.0.2
-ipython==4.0.0
-ipython-genutils==0.1.0
-Jinja2==2.8
-jsonschema==2.5.1
-jupyter-client==4.0.0
-jupyter-core==4.0.6
-Logbook==0.10.1
-lxml==3.4.4
-MacFSEvents==0.4
-Mako==1.0.2
-Markdown==2.6.2
-MarkupSafe==0.23
-micawber==0.3.3
-mistune==0.7.1
-mock==1.3.0
-natsort==4.0.3
-nbconvert==4.0.0
-nbformat==4.0.0
-Nikola==7.7.1
-nose==1.3.7
-notebook==4.0.5
-numpydoc==0.5
-path.py==8.1.1
-pathtools==0.1.2
-pbr==1.8.0
-pexpect==3.3
-phpserialize==1.3
-pickleshare==0.5
-Pillow==2.9.0
-ptyprocess==0.5
-pygal==2.0.6
-Pygments==2.0.2
-Pyphen==0.9.1
-pyreadline==2.1
-PyRSS2Gen==1.1
-python-dateutil==2.4.2
-pytz==2015.6
-PyYAML==3.11
-pyzmq==14.7.0
-qtconsole==4.0.1
-requests==2.7.0
-simplegeneric==0.8.1
-six==1.9.0
-smartypants==1.8.6
-snowballstemmer==1.2.0
-Sphinx==1.3.1
-sphinx-rtd-theme==0.1.9
-terminado==0.5
-testpath==0.2
-tornado==4.2.1
-traitlets==4.0.0
-typogrify==2.0.7
-Unidecode==0.4.18
-watchdog==0.8.3
-webassets==0.11.1
-ws4py==0.3.4
-Yapsy==1.11.223
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Now, highlight the ouput from the last cell and run:</p>
-
-<pre><code>pbpaste &gt; requirements.txt
-
-</code></pre>
-<p>We just took the contents of your clipboard (all the stuff you just copied) and wrote it to a new file, requirements.txt</p>
-<p>Now run:</p>
-
-<pre><code>pip install -r requirements.txt
-
-</code></pre>
-<p>which will install all the libraries you need to create your project :)</p>
 <hr>
 </div>
 </div>
