@@ -78,7 +78,7 @@ article: http://ogp.me/ns/article#
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Secondly, we're going to see how we can easily host our blog on the interwebs using <a href="https://pages.github.com/"><strong>github pages</strong></a></p>
+<p>Secondly, we're going to see how we can easily host our blog on the interwebs using <a href="https://pages.github.com/"><strong>github pages</strong></a>.</p>
 
 </div>
 </div>
@@ -99,7 +99,8 @@ article: http://ogp.me/ns/article#
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>First things, first. We're going to need to install some software on our machine. It will help you have a very basic understanding of git, and Python, but if you don't, it's ok. We're going to start at the basics. Also, these instructions are based on someone using OS X, but things will be similar for Linux, or even windows. The only differences should be in how you install software.</p>
+<p>First things, first. We're going to need to install some software on our machine. It will help you have a very basic understanding of git and Python, but if you don't, it's ok. We're going to start with the basics.</p>
+<p>These instructions are based on OS X, but the instructions will be similar for Linux, or even windows. The only real differences should be in how you install software.</p>
 <hr>
 </div>
 </div>
@@ -431,12 +432,31 @@ git push
 <pre><code>nikola github_deploy
 
 </code></pre>
+<p>So what just happened?</p>
+<ol>
+<li>Nikola checked out a new branch in git (gh-pages)</li>
+<li>It built the website in that branch</li>
+<li>It pushed that branch to github</li>
+<li>Master branch was checked out again</li>
+</ol>
 <p>Ta da! Your blog is now available at</p>
 
 <pre><code>&lt;your-username&gt;.github.io/nikola-demo
 
 </code></pre>
+<p>Basically, any project you have in github that has a gh-pages branch can be accessed via <code>&lt;your-username&gt;.github.io/&lt;your-project&gt;</code>.</p>
 <hr>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong><a href="http://getnikola.com/">Nikola</a></strong> is just one framework that allows you to create static websites and host them on github pages. <strong><a href="https://jekyllrb.com/">Jekyll</a></strong> is a common one that is written in Ruby and the default framework used by github. It is probably the most popular framework and thus probably has the most themes.</p>
+<p>Another popular framework for Python is <strong><a href="http://blog.getpelican.com/">Pelican</a></strong>. Pelican is more popular than Nikola and has more themes, but I chose Nikola because it has better support for Jupyter notebooks and it is easier to write content in multiple different formats and have them render correctly on your site. In my experience when using Pelican. If I wrote one article in IPython notebook format and another in reStructuredText, one of the articles would end up looking strange because of the way Pelican uses CSS.</p>
+
 </div>
 </div>
 </div>
