@@ -36,7 +36,7 @@ Pure functions can make your programs easier to understand and debug, especially
 
 
 
-You can decorate function">
+You can 'decorate' functi">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2015-08-28T17:58:48-10:00">
 <meta property="article:tag" content="decorators">
@@ -117,7 +117,7 @@ You can decorate function">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>You can decorate functions to add functionality without changing their logic.</li>
+<li>You can 'decorate' functions to change a function's behavior without changing the original function.</li>
 </ul>
 </div>
 </div>
@@ -128,7 +128,7 @@ You can decorate function">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>Pure functions can often better represent the mathematic definition of their algorithms.<!-- TEASER_END -->
+<li>Writing functional programs can reduce the amount of state floating around in your programs, which is good, because state is bad.<!-- TEASER_END -->
 </li>
 </ul>
 </div>
@@ -155,6 +155,45 @@ You can decorate function">
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [34]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="c"># Pure:</span>
+<span class="k">def</span> <span class="nf">square_it</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">n</span><span class="o">**</span><span class="mi">2</span>
+
+<span class="c"># Not pure</span>
+<span class="n">x</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">def</span> <span class="nf">add_to_x</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">global</span> <span class="n">x</span>
+    <span class="n">x</span> <span class="o">+=</span> <span class="n">n</span>
+    
+<span class="n">add_to_x</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>3
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -194,7 +233,11 @@ You can decorate function">
         <span class="n">total</span> <span class="o">+=</span> <span class="n">square</span>
     <span class="k">return</span> <span class="n">total</span>
 
-<span class="n">sum_squares_p</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">sum_squares_p</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">sum_squares_p</span><span class="p">(</span><span class="mi">20</span><span class="p">))</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s">'i am a banana'</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -206,13 +249,13 @@ You can decorate function">
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[1]:</div>
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>285</pre>
+<div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>285
+2470
+i am a banana
+</pre>
 </div>
-
 </div>
 
 </div>
@@ -271,7 +314,7 @@ You can decorate function">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Comprehension">Comprehension<a class="anchor-link" href=".#Comprehension">¶</a>
+<h4 id="Declarative-+-Comprehension">Declarative + Comprehension<a class="anchor-link" href=".#Declarative-+-Comprehension">¶</a>
 </h4>
 </div>
 </div>
@@ -786,7 +829,7 @@ sequence is empty.
 <div class="prompt input_prompt">In [15]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="c"># Filter out even numbers in the range 20</span>
+<div class=" highlight hl-ipython3"><pre><span class="c"># Filter out odd numbers in the range 20</span>
 <span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">,</span> <span class="nb">range</span><span class="p">(</span><span class="mi">20</span><span class="p">)))</span>
 </pre></div>
 
@@ -1266,7 +1309,7 @@ Computing fib of 0
 <span class="sd">    It is interesting to note that the squares keyword argument </span>
 <span class="sd">    is only computed once at runtime.</span>
 <span class="sd">    We are creating something like a global variable without polluting the</span>
-<span class="sd">    global namespace. To keep this function 'pure', however, we have to</span>
+<span class="sd">    global namespace. To keep this function 'pure-ish', however, we have to</span>
 <span class="sd">    resort to a dirty assertion hack.</span>
 <span class="sd">    """</span>
     <span class="k">assert</span> <span class="n">squares</span> <span class="ow">is</span> <span class="n">sum_squares</span><span class="o">.</span><span class="n">__defaults__</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> \
@@ -1321,11 +1364,24 @@ Computing fib of 0
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>result: 8581146
-0.6896536827087403 minutes elapsed.
+0.6340802311897278 minutes elapsed.
 </pre>
 </div>
 </div>
 
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [ ]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre> 
+</pre></div>
+
+</div>
 </div>
 </div>
 
