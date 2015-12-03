@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/</loc>
-  <lastmod>2015-10-09T09:48:00Z</lastmod>
+  <lastmod>2015-12-03T02:53:00Z</lastmod>
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/2015/</loc>
@@ -15,7 +15,7 @@
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/archive.html</loc>
-  <lastmod>2015-09-25T23:51:00Z</lastmod>
+  <lastmod>2015-12-03T02:53:00Z</lastmod>
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/categories/</loc>
@@ -204,6 +204,10 @@
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/posts/pathlib-and-ospath/</loc>
   <lastmod>2015-09-01T06:39:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://knowsuchagency.github.io/pyhi/posts/python-gotchas/</loc>
+  <lastmod>2015-12-03T02:53:00Z</lastmod>
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/posts/tablib-flask-and-openshift/</loc>

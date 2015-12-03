@@ -1,0 +1,4 @@
+Sitemap: http://knowsuchagency.github.io/pyhi/sitemapindex.xml
+
+User-Agent: *
+Host: knowsuchagency.github.io
