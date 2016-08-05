@@ -7,15 +7,19 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/</loc>
-  <lastmod>2015-12-03T03:08:00Z</lastmod>
+  <lastmod>2016-08-05T20:42:00Z</lastmod>
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/2015/</loc>
   <lastmod>2015-12-03T03:07:00Z</lastmod>
  </url>
  <url>
+  <loc>http://knowsuchagency.github.io/pyhi/2016/</loc>
+  <lastmod>2016-02-22T07:21:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://knowsuchagency.github.io/pyhi/archive.html</loc>
-  <lastmod>2015-12-03T03:07:00Z</lastmod>
+  <lastmod>2016-08-05T20:42:00Z</lastmod>
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/categories/</loc>
@@ -212,6 +216,10 @@
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/posts/tablib-flask-and-openshift/</loc>
   <lastmod>2015-12-03T03:07:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://knowsuchagency.github.io/pyhi/posts/trinket-example/</loc>
+  <lastmod>2016-02-22T07:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://knowsuchagency.github.io/pyhi/stories/upcoming/</loc>
